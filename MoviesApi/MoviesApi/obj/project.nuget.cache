@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "+C03rgSZmpq5o9gGDdYkomxFSVZiCXDlY9O1WEF/zsVXtWShKh2aBzJLS5fq71sRYdE3jBzbJAIgwZPWN0CJZA==",
+  "dgSpecHash": "RvLzim1ksFRG0n0Ymfhb7aqjKps97mfyyuhSwdtAjnGLqlov+sMM0PWDyS4hot4eqpVTLHnqjqHfgbcg7kDyXQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vlSolrac\\Desktop\\GitHub\\vlSolrac\\Api\\MovieApi\\MoviesApi\\MoviesApi\\MoviesApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vlSolrac\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\vlSolrac\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\vlSolrac\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\vlSolrac\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\vlSolrac\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vlSolrac\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\vlSolrac\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\vlSolrac\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\vlSolrac\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "C:\\Users\\vlSolrac\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\vlSolrac\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",

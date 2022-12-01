@@ -81,3 +81,5 @@ C:\Users\vlSolrac\Desktop\GitHub\vlSolrac\Api\MovieApi\MoviesApi\MoviesApi\obj\D
 C:\Users\vlSolrac\Desktop\GitHub\vlSolrac\Api\MovieApi\MoviesApi\MoviesApi\obj\Debug\net6.0\MoviesApi.pdb
 C:\Users\vlSolrac\Desktop\GitHub\vlSolrac\Api\MovieApi\MoviesApi\MoviesApi\obj\Debug\net6.0\MoviesApi.genruntimeconfig.cache
 C:\Users\vlSolrac\Desktop\GitHub\vlSolrac\Api\MovieApi\MoviesApi\MoviesApi\obj\Debug\net6.0\ref\MoviesApi.dll
+C:\Users\vlSolrac\Desktop\GitHub\vlSolrac\Api\MovieApi\MoviesApi\MoviesApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\vlSolrac\Desktop\GitHub\vlSolrac\Api\MovieApi\MoviesApi\MoviesApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
