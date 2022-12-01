@@ -17,7 +17,7 @@ namespace MoviesApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<GenreResponse>>> GetAll()
+        public async Task<IActionResult> GetAll()
         {
             dynamic res = await _genre.GetAll();
 
@@ -31,7 +31,7 @@ namespace MoviesApi.Controllers
 
         [HttpGet]
         [Route("GetOne")]
-        public async Task<ActionResult<GenreResponse>> GetOne(int idGenre)
+        public async Task<IActionResult> GetOne([FromQuery] int idGenre)
         {
             dynamic res = await _genre.GetOneById(idGenre);
 
@@ -44,9 +44,19 @@ namespace MoviesApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<GenreResponse>> PostOne(GenreRequest genreRequest)
+        public async Task<IActionResult> PostOne([FromBody] GenreRequest genreRequest)
         {
             dynamic res = await _genre.Post(genreRequest);
+
+            if (res.Result.StatusCode != 200) return res;
+
+            return res;
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> PutOne([FromBody] GenreRequest genreRequest, [FromQuery] int idGenre)
+        {
+            dynamic res = await _genre.Update(genreRequest, idGenre);
 
             if (res.Result.StatusCode != 200) return res;
 

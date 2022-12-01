@@ -6,7 +6,7 @@ using MoviesApi.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 var am = builder.Configuration.GetValue<String>("Ambient");
-var x = "";
+var x = "Production";
 if (am == "dev") x = "Development";
 
 builder.Services.AddControllers();

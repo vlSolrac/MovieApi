@@ -6,15 +6,5 @@ namespace MoviesApi.Models
     {
         [Required]
         public string Name { get; set; } = string.Empty;
-
-
-        public Genre toGenre(GenreRequest genreRequest)
-        {
-            Genre geenre = new Genre
-            {
-                Name = genreRequest.Name,
-            };
-            return geenre;
-        }
     }
 }
