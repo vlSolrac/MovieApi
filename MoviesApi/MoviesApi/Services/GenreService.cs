@@ -13,7 +13,7 @@ namespace MoviesApi.Services
         {
             this.context = context;
         }
-        public Task<ActionResult<bool>> Delete(int idGenre)
+        public async Task<ActionResult<bool>> Delete(int idGenre)
         {
             throw new NotImplementedException();
         }
@@ -56,7 +56,7 @@ namespace MoviesApi.Services
             return new OkObjectResult(genreObjet);
         }
 
-        public Task<ActionResult<bool>> Update(GenreRequest genreRequest, int idGenre)
+        public async Task<ActionResult<bool>> Update(GenreRequest genreRequest, int idGenre)
         {
             throw new NotImplementedException();
         }
